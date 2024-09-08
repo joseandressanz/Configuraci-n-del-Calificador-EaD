@@ -7,7 +7,7 @@
   <string role="key" value="idevices"></string>
   <list></list>
   <string role="key" value="_addAccessibilityToolbar"></string>
-  <bool value="1"></bool>
+  <bool value="0"></bool>
   <string role="key" value="_addExeLink"></string>
   <bool value="1"></bool>
   <string role="key" value="_addPagination"></string>
