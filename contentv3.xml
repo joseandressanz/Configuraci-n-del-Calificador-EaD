@@ -3,7 +3,7 @@
 <instance xmlns="http://www.exelearning.org/content/v0.3" reference="2" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
  <dictionary>
   <string role="key" value="_title"></string>
-  <unicode value=""></unicode>
+  <unicode value="Configuración del calificador EaD"></unicode>
   <string role="key" value="idevices"></string>
   <list></list>
   <string role="key" value="_addAccessibilityToolbar"></string>
@@ -13,7 +13,7 @@
   <string role="key" value="_addPagination"></string>
   <bool value="0"></bool>
   <string role="key" value="_addSearchBox"></string>
-  <bool value="1"></bool>
+  <bool value="0"></bool>
   <string role="key" value="_author"></string>
   <unicode value="José Andrés Sanz Ruiz"></unicode>
   <string role="key" value="_backgroundImg"></string>
@@ -153,7 +153,7 @@
                <instance class="exe.engine.field.TextField">
                 <dictionary>
                  <string role="key" value="_id"></string>
-                 <int value="2126"></int>
+                 <int value="2127"></int>
                  <string role="key" value="_idevice"></string>
                  <none></none>
                  <string role="key" value="_instruc"></string>
@@ -167,7 +167,7 @@
                 </dictionary>
                </instance>
                <string role="key" value="_id"></string>
-               <unicode value="0_167.20"></unicode>
+               <unicode value="0_167.21"></unicode>
                <string role="key" value="_imageResource"></string>
                <instance class="exe.engine.resource.Resource" reference="5">
                 <dictionary>
@@ -178,7 +178,7 @@
                  <string role="key" value="_storageName"></string>
                  <string value="Anadir_un_poco_de_texto.png"></string>
                  <string role="key" value="_userName"></string>
-                 <string value="c:\\users\\pepe\\appdata\\local\\temp\\tmpmtf5xk\\Anadir_un_poco_de_texto.png"></string>
+                 <string value="c:\\users\\pepe\\appdata\\local\\temp\\tmpk9wzqm\\Anadir_un_poco_de_texto.png"></string>
                  <string role="key" value="checksum"></string>
                  <string value="4a1caf66eb97a91815c8463286db8e0c"></string>
                  <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -207,7 +207,7 @@
           <string role="key" value="intlinks_to_anchors"></string>
           <dictionary></dictionary>
           <string role="key" value="nextImageId"></string>
-          <int value="21"></int>
+          <int value="22"></int>
           <string role="key" value="parentNode"></string>
           <reference key="4"></reference>
          </dictionary>
@@ -340,6 +340,8 @@
               <string value=""></string>
               <string role="key" value="anchor_names"></string>
               <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
               <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;A continuación se muestran unos vídeos elaborados por Raúl Ángel Serrano Sánchez sobre la configuración del calificador:&lt;/p&gt;
 &lt;figure class=&quot;exe-figure exe-media position-center license-standard-youtube&quot; style=&quot;width: 560px;&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/A5FLY81w_ac?si=5CgJL6aYw6zOWhME&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;
@@ -380,7 +382,7 @@
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <none></none>
+              <reference key="8"></reference>
              </dictionary>
             </instance>
            </list>
@@ -475,7 +477,7 @@
     <string role="key" value="subject"></string>
     <unicode value=""></unicode>
     <string role="key" value="title"></string>
-    <unicode value=""></unicode>
+    <unicode value="Configuración del calificador EaD"></unicode>
     <string role="key" value="type"></string>
     <unicode value=""></unicode>
    </dictionary>
@@ -732,7 +734,25 @@
       <string role="key" value="structure"></string>
       <none></none>
       <string role="key" value="title"></string>
-      <none></none>
+      <instance class="exe.engine.lom.lomsubs.titleSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="string"></string>
+        <list>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="Configuraci\xc3\xb3n del calificador EaD"></string>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="uniqueElementName"></string>
+        <none></none>
+       </dictionary>
+      </instance>
       <string role="key" value="uniqueElementName"></string>
       <string value="general"></string>
      </dictionary>
@@ -1203,7 +1223,25 @@
       <string role="key" value="structure"></string>
       <none></none>
       <string role="key" value="title"></string>
-      <none></none>
+      <instance class="exe.engine.lom.lomsubs.titleSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="string"></string>
+        <list>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="Configuraci\xc3\xb3n del calificador EaD"></string>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="uniqueElementName"></string>
+        <none></none>
+       </dictionary>
+      </instance>
       <string role="key" value="uniqueElementName"></string>
       <string value="general"></string>
      </dictionary>
